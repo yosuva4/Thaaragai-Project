@@ -1,8 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Allura&family=Creepster&family=Great+Vibes&family=Lemon&family=Lobster&family=Niconne&family=Permanent+Marker&family=Poppins&family=Sedgwick+Ave+Display&family=Space+Grotesk:wght@500&family=Yellowtail&display=swap');
-body{
+body,*{
     margin: 0px;
     padding: 0px;
 }
+
 /* Navbar */
 .navbar-box{
     background-color: #EFAD4A;
@@ -68,7 +69,8 @@ input:focus{outline: none;}
     color: white;
 }
 .shopcontent h1{
-    font-family: 'Niconne', cursive;font-size: 50px;
+    font-family: 'Niconne', cursive;
+    font-size: 50px;
     letter-spacing: 2px;
     font-size: 400%;
     color: #FFCF79;
