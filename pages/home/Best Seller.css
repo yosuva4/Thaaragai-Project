@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Allura&family=Creepster&family=Great+Vibes&family=Lemon&family=Lobster&family=Niconne&family=Permanent+Marker&family=Poppins&family=Sedgwick+Ave+Display&family=Space+Grotesk:wght@500&family=Yellowtail&display=swap');
 /***** Universal for Document *****/
 *{
     margin: 0;
@@ -11,6 +12,7 @@
 html{
     scroll-behavior: smooth;
 }
+
 /***** End Section *****/
 
 
@@ -67,7 +69,7 @@ a:hover{
 
 
 /***** row Section *****/
-.row{
+.row-1{
     display:flex ;
     margin: 10px;
     flex-wrap: nowrap;
@@ -79,7 +81,7 @@ a:hover{
 
 
 /***** card-row scroll Section *****/
-.row::-webkit-scrollbar{
+.row-1::-webkit-scrollbar{
     appearance: none;
 }
 /***** card-row scroll End Section *****/
@@ -95,7 +97,7 @@ a:hover{
 
 
 /*****  card Section *****/
-.card{
+.cards{
     display: flex;
     flex-direction: column;
     gap: 10px;
