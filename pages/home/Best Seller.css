@@ -69,7 +69,7 @@ a:hover{
 
 
 /***** row Section *****/
-.row-1{
+.card-row{
     display:flex ;
     margin: 10px;
     flex-wrap: nowrap;
@@ -81,7 +81,7 @@ a:hover{
 
 
 /***** card-row scroll Section *****/
-.row-1::-webkit-scrollbar{
+.row::-webkit-scrollbar{
     appearance: none;
 }
 /***** card-row scroll End Section *****/
@@ -97,7 +97,7 @@ a:hover{
 
 
 /*****  card Section *****/
-.cards{
+.card-row .card{
     display: flex;
     flex-direction: column;
     gap: 10px;
@@ -168,7 +168,7 @@ a:hover{
 
 /***** card-button Section *****/
 .btn {
-    transition:   ease-in-out 2s ;
+    transition:   ease-in-out 1s ;
 }
 
 /***** card-button End *****/

@@ -2,24 +2,24 @@
     padding: 0px;
     margin: 0px;
 }
-.main-containers{
+.combo-main-container{
     background-color: #378447;
     align-items: center;
     padding: 10px;
     height: 100%;
     margin-top: 50px;
 }
-.main-containers .container{
+.combo-main-container .container{
     background-color: #EFAD4A;
     padding: 10px;
     border-radius: 50px;
     height: 400px;
-    margin-top: 50px;
+    margin-top: 60px;
 }
 .container-title{
     padding: 30px;
 }
-.container .btn{
+.combo-main-container .container .btn{
     margin-top: 20px;
 }
 .list-container{
@@ -32,7 +32,7 @@
     width: 200px;
     border: solid 2px;
 }
-.container img{
+.combo-main-container .container img{
     position: relative;
     bottom: 100px;
 }
