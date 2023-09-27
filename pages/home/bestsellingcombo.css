@@ -27,7 +27,7 @@
     justify-content: space-around;
     padding: 50px;
 }
-.btn{
+ .content-container .btn{
     border-radius: 25px;
     width: 200px;
     border: solid 2px;

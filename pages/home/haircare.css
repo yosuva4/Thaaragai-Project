@@ -1,0 +1,174 @@
+/***** Universal for Document *****/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/***** End *****/
+
+
+/***** Document-body Section *****/
+html{
+    scroll-behavior: smooth;
+}
+/***** End Section *****/
+
+
+/***** Container Heading *****/
+.container h1{
+    padding: 10px;
+}
+/***** End  *****/
+
+
+/***** Container as Centre *****/
+.container{
+    text-align: center;
+}
+/*****  Container End  *****/
+
+/***** ul section *****/
+ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+/*****  ul End *****/
+
+
+/***** List-item Section *****/
+li.list-item{
+    list-style: none;
+    padding-right: 10px;
+    text-decoration: none;
+}
+/***** List-item End  *****/
+
+/***** Link Section *****/
+a{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}
+/***** Link End Section *****/
+
+
+/***** Link hover Section *****/
+a:hover{
+    text-decoration: underline;
+}
+/***** Link hover End Section *****/
+
+
+/***** row Section *****/
+.row{
+    display:flex ;
+    margin: 10px;
+    flex-wrap: nowrap;
+    overflow-x: scroll;
+    padding: 5px;
+}
+/*****  row End Section *****/
+
+/***** card-row scroll Section *****/
+.row::-webkit-scrollbar{
+    appearance: none;
+}
+/***** card-row scroll End Section *****/
+
+
+/*****  column Section *****/
+.col{
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+}
+/***** column End Section *****/
+
+
+/*****  card Section *****/
+.card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+    padding: 30px;
+    border-radius: 30px;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+}
+/***** card End Section *****/
+
+
+/*****  card hover Section *****/
+.card:hover{
+    box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+}
+
+/***** End  card hover  *****/
+
+
+
+/*****  card-img Section *****/
+.card img{
+    width: 200px;
+    height: 200px;
+    border: black solid 0.5px;
+    padding: 0px;
+    border-radius: 30px;
+}
+/***** card-img End  *****/
+
+
+/***** card-body Section *****/
+.card-body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction:column;
+    padding: 20px;
+    gap: 10px;
+}
+/***** card-body End *****/
+
+
+/***** card-text Section *****/
+.card-text{
+    text-decoration: underline;
+}
+/***** End Section *****/
+
+
+/***** card-price Section *****/
+.price{
+    color: green;
+    font-size: 30px;
+}
+/***** card-price End  *****/
+
+
+/***** card-wrong Section *****/
+.wrong{
+    color: black;
+    font-size: 20px;
+}
+/***** card-wrong End *****/
+
+
+/***** card-button Section *****/
+.btn{
+  
+    transition: 1s ease-in-out;
+}
+/***** card-button End *****/
+
+
+/***** container-button Section *****/
+#btn2{
+    
+   font-size: 20px;
+   margin-top: 2vw;
+}
+/***** container-button End *****/
+
