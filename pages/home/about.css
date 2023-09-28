@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.about{
+    align-content: center;
+}
+.about-heading{
+    text-align: center;
+}
+.about .container{
+    background-color: #378447;
+    border-radius: 50px;
+    display: flex;
+    margin-top: 50px;
+}
+.about .container .img{
+    width: 500px;
+    height: 300px;
+    background-color: rgb(170, 170, 170);
+    border-radius: 50px;
+    position: relative;
+    bottom: 80px;
+    right: 80px;
+}
+
+
+.social-media{
+    align-items: center;
+    text-align: center;
+    margin-top: 5%;
+}
+
+.social-media-icons img{
+    width: 80px;
+    height: 80px;
+    padding: 10px;
+}
+
+.footer{
+    padding: 50px;
+}
+.contact{
+    float: left;
+}
+.support{
+    float: right;
+}
+.subscribe{
+    clear: both;
+    text-align: center;
+}
+.subscribe input{
+    border-right: none;
+    border-left: none;
+    border-top: none;
+}
+.subscribe input:focus{outline: none;}
+.subscribe button{
+    margin-top: 10px;
+}

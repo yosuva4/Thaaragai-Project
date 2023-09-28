@@ -29,7 +29,7 @@ html{
 
 
 /***** ul section *****/
-ul{
+.ul{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -39,7 +39,7 @@ ul{
 
 
 /***** List-item Section *****/
-li.list-item{
+.ul li.list-item{
     list-style: none;
     padding-right: 10px;
     text-decoration: none;

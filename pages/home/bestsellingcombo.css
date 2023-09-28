@@ -63,9 +63,16 @@
 .combo-card .card-body{
     position: absolute;
     top: 0px;
+    color: yellow;
 }
 .combo-card .card img{
     width: 15rem;
     height: 25rem;
     border-radius: 25px;
+    opacity: 0.8;
+}
+
+.combo-card .btn{
+    border:1px solid yellow;
+    color: yellow;
 }
