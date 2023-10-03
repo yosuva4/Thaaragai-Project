@@ -32,7 +32,7 @@ html{
 
 
 /***** ul section *****/
-ul{
+.ul{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -42,7 +42,7 @@ ul{
 
 
 /***** List-item Section *****/
-li.list-item{
+.ul li.list-item{
     list-style: none;
     padding-right: 10px;
     text-decoration: none;
@@ -67,7 +67,7 @@ a:hover{
 
 
 /***** row Section *****/
-.row{
+.skin-row{
     display:flex ;
     margin: 10px;
     flex-wrap: nowrap;
@@ -78,7 +78,7 @@ a:hover{
 
 /***** card-row scroll Section *****/
 .row::-webkit-scrollbar{
-    appearance: none;
+    display: none;
 }
 /***** card-row scroll End Section *****/
 
@@ -93,7 +93,7 @@ a:hover{
 
 
 /*****  card Section *****/
-.card{
+.skin-row .card{
     display: flex;
     flex-direction: column;
     gap: 10px;
