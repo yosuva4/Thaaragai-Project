@@ -1,0 +1,38 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@200;300;400;500;600;700;800;900&display=swap');
+
+*{
+    margin: 0 !important;
+    padding: 0 !important;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Barlow', sans-serif;
+    overflow-x: hidden;
+}
+
+
+.product {
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    cursor: pointer;
+    border-radius: 30px ;
+}
+
+.product:hover{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.product__img{
+    width: 230px;
+    /* height: 200px; */
+    border-radius: 20px;
+}
+
+.product__star{
+    cursor: pointer;
+}
+
+.product button {
+     transition: all 1s;
+}
